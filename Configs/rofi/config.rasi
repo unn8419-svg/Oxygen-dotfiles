@@ -1,0 +1,82 @@
+@theme "/dev/null"
+
+configuration {
+    modi: "drun";
+    font: "JetBrainsMono Nerd Font 11";
+    show-icons: true;
+    icon-theme: "Papirus";
+}
+
+* {
+    bg: rgba(30, 30, 38, 1);
+    accent: rgba(180, 180, 200, 1);
+    
+    text: rgba(30, 30, 38, 1);
+    white: #ffffff;
+    
+    background-color: transparent;
+    text-color: @text;
+}
+
+window {
+    background-color: @bg;
+    border: 0px;
+    border-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0px 0px 15px 0px;
+    width: 670px;
+    padding: 20px;
+    location: northwest;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 30px;
+    padding: 8px;
+    margin: 0px 0px 10px 0px;
+}
+
+prompt {
+    text-color: @white;
+    padding: 0px 10px 0px 5px;
+}
+
+entry {
+    text-color: @white;
+    placeholder: "Поиск...";
+    placeholder-color: rgba(255, 255, 255, 0.2);
+}
+
+listview {
+    lines: 12;
+    columns: 1;
+    fixed-height: true;
+}
+
+element {
+    padding: 8px;
+    border-radius: 30px;
+    background-color: transparent;
+    text-color: rgba(180, 180, 200, 1);
+}
+
+element-text, element-icon {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: rgba(30, 30, 38, 1);
+    border-color: rgba(126, 215, 255);
+    border-width: 2px;
+}
+
+element-text {
+    vertical-align: 0.5;
+}
+
+element-icon {
+    size: 24px;
+    margin: 0px 10px 0px 0px;
+}
