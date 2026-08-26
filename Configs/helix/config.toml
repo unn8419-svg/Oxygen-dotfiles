@@ -1,0 +1,11 @@
+theme = "transparent_background"
+
+[editor]
+true-color = true
+line-number = "relative"
+cursorline = true
+gutters = ["diagnostics", "line-numbers", "spacer"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
