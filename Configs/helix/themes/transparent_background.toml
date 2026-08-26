@@ -1,0 +1,4 @@
+inherits = "nord"
+
+"ui.background" = "none"
+"ui.background.separator" = "none"
