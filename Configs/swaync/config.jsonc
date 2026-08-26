@@ -1,0 +1,26 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "center",
+  "positionY": "center",
+  "layer": "top",
+  "control-center-margin-top": 0,
+  "control-center-margin-bottom": 0,
+  "control-center-margin-right": 0,
+  "control-center-margin-left": 0,
+  "notification-icon-size": 64,
+  "notification-body-image-height": 100
+  "notification-body-image-width": 200
+  "timeout": 5,
+  "timeout-low": 2,
+  "timeout-critical": 0,
+  "fit-to-screen": false,
+  "keyboard-shortcuts": true,
+  "image-visibility": "always",
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-touch": true,
+  "image-size": 96,
+  "relative-timestamps": true,
+  "notification-window-width": 450,
+  "control-center-width": 100
+}
