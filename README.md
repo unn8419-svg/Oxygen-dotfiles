@@ -19,6 +19,7 @@ Here is the list of tools and versions these configurations were built and teste
 * **Prompt:** `starship` (v1.26.0)
 * **System Info:** `fastfetch` (v2.67.1)
 * **Audio Visualizer:** `cava` (v1.0.0)
+* **Wallpapers:** `swaybg` (v1.2.2)
 
 ## 📦 Prerequisites
 
