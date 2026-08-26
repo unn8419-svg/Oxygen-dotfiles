@@ -1,0 +1,114 @@
+window#waybar {
+  background-color: rgba(30, 30, 38, 1);
+  border: none;
+  box-shadow: none;
+}
+
+#workspaces,
+#window,
+#clock,
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#language,
+#custom-gpu-temp,
+#battery,
+#tray,
+#custom-notifications,
+#power-profiles-daemon,
+#custom-power {
+  color: rgba(30, 30, 38, 1);
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 4px 16px;
+  margin: 0px 0px;
+  box-shadow: none;
+}
+
+#workspaces {
+  padding: 4px 8px;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  color: rgba(30, 30, 38, 1);
+  background-color: transparent;
+  border: none;
+}
+
+#workspaces button.active {
+  color: rgba(30, 30, 38, 1);
+  font-weight: 900;
+}
+
+#workspaces button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  box-shadow: none;
+}
+
+#idle_inhibitor.activated {
+  color: #ffffff;
+}
+
+#custom-cava {
+  color: rgba(30, 30, 38, 1);
+  padding: 2px 16px;
+  margin: 0px 0px;
+  border-radius: 30px;
+  font-family: "JetBrainsMono Nerd Font", "monospace";
+  font-size: 13px;
+}
+
+#custom-notification {
+  color: rgba(30, 30, 38, 1);
+  padding: 4px 14px 2px 12px;
+  margin: 0px 0px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-family: "monospace", "DejaVu Sans", "Noto Sans", sans-serif;
+}
+
+#custom-clipboard {
+  color: #cccccc;
+  padding: 0px 14px 2px 12px;
+  margin: 0px 0px;
+  border-radius: 30px;
+}
+
+#custom-rofi {
+  color: rgba(30, 30, 38, 1);
+  padding: 2px 14px 2px 9px;
+  margin: 0px 0px;
+  border-radius: 30px;
+}
+
+.modules-left {
+  background-color: rgba(180, 180, 200, 1.0);
+  color: rgba(30, 30, 38, 1);
+  padding: 0px 0px 0px 0px;
+  margin: 5px 4px;
+  border-radius: 30px;
+}
+
+.modules-center {
+  background-color: rgba(180, 180, 200, 1.0);
+  color: rgba(30, 30, 38, 1);
+  padding: 0px 0px 0px 0px;
+  margin: 5px 4px;
+  border-radius: 30px;
+}
+
+.modules-right {
+  background-color: rgba(180, 180, 200, 1.0);
+  color: rgba(30, 30, 38, 1);
+  padding: 0px 0px 0px 0px;
+  margin: 5px 4px;
+  border-radius: 30px;
+}
